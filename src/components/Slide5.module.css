@@ -1,20 +1,20 @@
-h2{
-    font-size: 1000%;
-}
-h1{
-    font-size: 500%;
-}
-
-.title{
+.Slide5{
     width: 100vw;
     height: 100vh;
     scroll-snap-align: start;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     overflow: none;
 }
+
+.Slide5 img{
+    width: 450px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
 
 @keyframes rainbow {
     0% { color: red; }

@@ -3,9 +3,10 @@ import styles from "./Title.module.css";
 
 const Title = () => {
     return (
-        <article className={styles.main}>
-            <h1 className={`${styles.title} ${styles.rainbowText}`}>Component diagrams</h1>
-        </article>
+        <div className={styles.title}>
+            <h2 className={styles.rainbowText}>Component diagrams</h2>
+            <h1 className={styles.rainbowText}>IPa21 IK MJ RAG</h1>
+        </div>
     );
 }
 
